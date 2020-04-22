@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 /*
+| Gems Project Created By Eng.Ahmed Magdy - Eng.Radwa Essam
+| For Technical Support contact with this URL: http://amagdy.66ghz.com/
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -13,6 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','UserControllers\MainController@index');
