@@ -1,0 +1,41 @@
+header{
+    height: 70px;
+    background: rgb(37,103,164);
+    background: -moz-linear-gradient(90deg, rgba(37,103,164,1) 0%, rgba(27,118,181,1) 42%, rgba(0,159,226,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(37,103,164,1) 0%, rgba(27,118,181,1) 42%, rgba(0,159,226,1) 100%);
+    background: linear-gradient(90deg, rgba(37,103,164,1) 0%, rgba(27,118,181,1) 42%, rgba(0,159,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2567a4",endColorstr="#009fe2",GradientType=1);
+}
+
+.header-logo{
+    width: 40px;
+    margin: 10px;
+}
+.header-gems{
+    width: 70px;
+    margin: 10px;
+}
+
+.language-div{
+    padding: 15px 15px;
+    color: white;
+    font-family: Lovelo-Black;
+    font-size: 24px;
+    text-align: center;
+}
+
+.lang{
+    color: white;
+    font-size: 20px;
+}
+.lang:hover{
+    color:#c5c5c5;
+    text-decoration: none;
+}
+
+.main-word{
+    color: white;
+    font-size: 40px;
+    padding: 5px 0;
+    font-family: Lovelo-Black;
+}
