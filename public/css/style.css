@@ -39,3 +39,22 @@ header{
     padding: 5px 0;
     font-family: Lovelo-Black;
 }
+
+.header-icon{
+    width: 60px;
+    padding: 10px;
+}
+
+.card-count{
+    position: relative;
+    left:-15px;
+    top: -10px;
+}
+
+.version{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    background: #0793d5;
+    padding: 5px;
+}

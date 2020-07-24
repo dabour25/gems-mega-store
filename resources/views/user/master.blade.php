@@ -43,11 +43,19 @@
                     <div class="col-sm-4 main-word">
                         GEMS MEGA STORE
                     </div>
+                    <div class="col-sm-3">
+                        <a href="/"><img class="header-icon" src="{{asset('/imgs/icons/home.png')}}"></a>
+                        <a href="/login"><img class="header-icon" src="{{asset('/imgs/icons/user.png')}}"></a>
+                        <a href="/card">
+                            <img class="header-icon" src="{{asset('/imgs/icons/cart.png')}}">
+                            <span class="badge badge-warning card-count">9+</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>
     @yield('content')
-
+    @include('version_view')
     </body>
     <!-- Bootstrap -->
     <script src="{{asset('/js/bootstrap.bundle.min.js')}}"></script>
